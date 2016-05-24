@@ -17,7 +17,12 @@ namespace LTS
         public static MySqlConnection getconn()
         {
             // Establish connection to sever
+
+
+            // Yes, I know I have my password avaliable here. Don't worry about it. 
             string connStr = "server=localhost;user=root;database=test;password=removekebab;";
+            
+            
             /*string.Format(connStr, ConfigurationManager.AppSettings["mysql_user"].ToString(), ConfigurationManager.AppSettings["mysql_db"], ConfigurationManager.AppSettings["mysql_pass"]);
             Console.WriteLine(connStr);
             Console.ReadKey();*/
